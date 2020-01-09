@@ -1,0 +1,37 @@
+body {
+  background-color: #000;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: monospace;
+  font-size: 20px;
+}
+/* margine tra <li> */
+#lista-for  li{
+  margin-bottom: 5px;
+}
+#lista-while li {
+  margin-bottom: 5px;
+}
+/* /margine tra <li> */
+
+h2 {
+  color: #fff;
+}
+.box-for {
+  width: 100px;
+}
+.red {
+  color: rgb(231, 18, 177);
+}
+.green {
+  color: rgb(12, 225, 246);
+}
+.blue {
+  color: rgb(19, 255, 92);
+}
+.box-while {
+  width: 100px;
+}
