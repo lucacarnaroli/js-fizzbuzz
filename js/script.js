@@ -2,10 +2,15 @@
 // a 100,
 
 for (var i = 1; i <= 100; i++) {
-  if (i / 3 && i / 5) {
+  if (i / 3==i && i / 5 ==i) {
     console.log('fizzbuzz')
-  }
-
+  } else if (i / 3 == i) {
+    console.log('fizz');
+  } else if (i / 5 == i) {
+    console.log('buzz');
+  } else {
+    console.log(i);
+   }
 }
 // ma per i multipli di 3 stampi “Fizz” al
 // posto del numero
